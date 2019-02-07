@@ -1,0 +1,207 @@
+/* Space out content a bit */
+body {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-family: 'Noto Serif JP', serif;
+  background-image: url("p0508_l.jpeg");
+  background-size: cover;　
+}
+
+hr{
+    border-bottom: double;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 1rem;
+  border-bottom: .05rem solid #e5e5e5;
+
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
+
+
+
+/* Customize container */
+@media (min-width: 48em) {
+  .container {
+    max-width: 46rem;
+  }
+}
+.container-narrow > hr {
+  margin: 2rem 0;
+}
+/*自作*/
+
+.text-muted{
+  color:#808080;
+}
+a.nav-link {
+  color:#808080	;
+}
+.nav-pills{
+  float:right;
+  padding: 10px;
+}
+
+.nav-item{
+  margin:15px;
+}
+.moji{
+position: relative;
+}
+/* Main marketing message and sign up button */
+
+
+
+.jumbotron {
+  position: relative;
+  text-align: center;
+  border-bottom: .05rem solid #e5e5e5;
+  margin: 0 auto;
+  width: 900px;
+
+}
+/* .jumbotron img{
+  width:100%;
+} */
+
+.jumbotron h1{
+  font-family: 'Noto Serif SC', serif;
+  color:brack;
+  text-stroke: 1px #000;
+  -webkit-text-stroke: 1px #000;
+  font-size: 120px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  white-space: nowrap;
+
+
+}
+
+.lead{
+
+  color:brack;
+  background-color:white;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+margin:0;
+padding:0;
+white-space: nowrap;s
+}
+
+
+.btn-lg  {
+color: white;
+  padding: .75rem 1.5rem;
+  font-size: 1.5rem;
+  background-color:#191970;
+  border-style: none;
+
+}
+.btn-lg  :hover{
+  background-color: #24d;
+  color:white;
+}
+
+input,textarea{
+  width:400px;
+  margin:10px 0 30px 0 ;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+.buy-submit{
+  padding: .75rem 1.5rem;
+  font-size: 1.5rem;
+  background-color:#191970 ;
+  color:white;
+  -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 50px auto 0;
+}
+
+
+}
+.buy-submit:hover {
+    background-color: #24d;
+    color:white;
+    text-decoration: none;
+}
+
+
+.section-title{
+  color: #808080
+
+}
+
+.contact-submit{
+  display:block;
+  width: 100px;
+  height: 60px;
+
+  font-size: 15px;
+  background-color:#191970 ;
+  color:white;
+  -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+}
+.contact-submit:hover {
+    background-color: #24d;
+    color: #fff;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 3rem 0;
+}
+.marketing p + h4 {
+  margin-top: 1.5rem;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 2rem;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
